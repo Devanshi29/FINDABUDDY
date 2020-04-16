@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Pacifico');
+@import
+url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Dancing+Script|Pacifico|Quicksand');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+/*----------------Logobar-----------------*/
+.Logobar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: black;
+}
+
+.Logobar img {
+  float: left;
+  height: 4rem;
+  width: 18rem;
+}
+
+
+/*--------------Footer----------------*/
+.Footer {
+  background-color: black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  color: #F18805;
+  font-family: 'Comfortaa';
+  font-size: .8rem;
+}
+
+.Footer p {
+  text-align: center;
+  padding-top: .6rem;
+  background: -webkit-linear-gradient(left, red, #E02500, #D95D39, #F5E219, #FFF44F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/*-----------------Entry-------------------*/
+.Entry {
+  margin: 5rem 38vw;
+}
+
+.Entry h2 {
+  text-align: center;
+  font-family: "Pacifico";
+  background: -webkit-linear-gradient(left, red, #E02500, #D95D39, #F5E219, #FFF44F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 1rem;
+  margin: 0;
+}
+
+.Entry label {
+  font-family: "Comfortaa";
+  color: #E02500;
+}
+
+.Entry button {
+  font-family: "Comfortaa";
+  width: 100%;
+  background-color: #E02500;
+  border: .08rem solid #E02500;
+  color: white;
+  margin-top: 1.2rem;
+}
+
+.Entry button:hover {
+  background-color: #E02500;
+  border: .08rem solid #E02500;
+  color: white;
+  opacity: .9;
+}
+
+.Entry input {
+  font-family: "Comfortaa";
+}
+
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.Entry input:focus {
+  border: .08rem solid #E02500;
+}
+
+.highlight, .highlightr {
+  width: 100%;
+  background-color: black;
+  height: .1rem;
+  margin-bottom: 2rem;
+  background-image: linear-gradient(to right, red, #E02500, #D95D39, #F5E219, #FFF44F);
+}
+
+.inactive {
+  display: none;
+}
+
+
+/*-----------------Register Customisation----------------*/
+.register {
+  margin-top: 5vh;
+}
+
+.register1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  justify-content: space-around;
+  column-gap: 5rem;
+}
+
+.left {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  width: 20rem;
+}
+
+.right {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  width: 20rem;
+}
+
+
+/*--------------------Navbar------------*/
+.custom-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: black;
+}
+
+.custom-navbar img {
+  float: left;
+  height: 4rem;
+  width: 18rem;
+}
+
+.custom-navbar ul {
+  display: inline;
+  float: right;
+  list-style-type: none;
+  margin-top: .75rem;
+}
+
+.custom-navbar li {
+  font-family: "Pacifico";
+  background: -webkit-linear-gradient(left, red, #E02500, #D95D39, #F5E219, #FFF44F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+.custom-navbar li:hover {
+  background-image: linear-gradient(to right, red, #E02500, #D95D39, #F5E219, #FFF44F);
+  color: black;
+}
+
+/*-------------------Body----------------*/
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Dancing+Script|Pacifico|Quicksand');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|KoHo|Reem+Kufi|Trocchi');
+
+body{
+    margin:0;
+}
+/* resets */
+.bodyx {
+    margin:0;
+
+    /*background-color: #ee5522;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23ca481d' fill-opacity='0.6'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.5'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+    */
+    background: url(" background1.jpg");
+    background-size:cover;
+    height:40rem;
+    padding-top: 5rem;
+    padding-left: 0;
+    opacity:0.9;
+
+}
+
+
+.insidebody{
+    /*padding:10%;
+    height: 100%;
+    margin-top:0;
+    top:0;
+    height:100%;*/
+
+    text-align: center;
+}
+
+#textanimation1,#textanimation2{
+    display : table-row;
+}
+
+.textanimation1{
+    width: 40%;
+    font-size: 60px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+
+    color : black;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+
+
+
+     -webkit-animation: swing-in-top-fwd 1s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
+
+}
+
+.textanimation2{
+    width: 40%;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+
+    color : black;
+    font-weight: normal;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+
+
+
+     -webkit-animation: swing-in-top-fwd 1s cubic-bezier(0.680, -0.550, 0.265, 1.550) both;
+}
+
+@-webkit-keyframes swing-in-top-fwd {
+  0% {
+    -webkit-transform: rotateX(-100deg);
+    -webkit-transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+    -webkit-transform-origin: top;
+    opacity: 1;
+  }
+}
+
+
+
+.body1header{
+    font-family: 'Comfortaa', cursive;
+    font-size: 4rem;
+    color: red;
+    text-align: center;
+    font-weight: normal;
+    padding-top:2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.left{
+    padding-left:10rem;
+    margin-top: 2rem;
+    width:30rem;
+    float:left;
+}
+
+.right{
+    padding-right:10rem;
+    width:30rem;
+    float:right;
+}
+
+.number{
+    color:red;
+    font-family: 'KoHo', sans-serif;
+    font-size: 3rem;
+    padding : 1.5rem;
+    padding-left: 0;
+}
+
+.tag{
+    color:black;
+    font-family: 'Comfortaa', cursive;
+
+
+    padding-bottom:0.5rem;
+    font-size:2rem;
+    font-weight: bold;
+}
+
+.tagcontent{
+    color:black;
+    font-family: 'Encode Sans Condensed', sans-serif;
+
+
+    font-size:1.5rem;
+}
+
+.img1{
+    height: 13rem;
+    width:13rem;
+    float:right;
+    padding-right: 15rem;
+    margin-top: 3rem;
+
+}
+
+.img2{
+    height: 10rem;
+    width:12rem;
+    float:left;
+    padding-left: 15rem;
+    margin-top: 2rem;
+}
+
+.img3{
+    height:11rem;
+    width:24rem;
+    float:right;
+    padding-right: 15rem;
+    margin-top: 3rem;
+}
+
+.img4{
+    height:8rem;
+    width:20rem;
+    float:left;
+    padding-left: 15rem;
+    margin-top: 5rem;
+}
+
+#matches {
+  margin-top: 15rem;
+  font-family: "Comfortaa";
+}
